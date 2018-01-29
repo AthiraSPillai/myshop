@@ -8,7 +8,7 @@ public class DbMgr {
 	public static Connection getConnection() throws URISyntaxException, SQLException {
     String dbUrl = System.getenv("JDBC_DATABASE_URL");
  this.connection = DriverManager.getConnection(dbUrl);
-		
+		return connection
 	}
 	
 	
