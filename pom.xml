@@ -98,6 +98,11 @@
         <version>3.0.1</version>
         <scope>provided</scope>
 </dependency>
+          <dependency>
+  <groupId>org.postgresql</groupId>
+  <artifactId>postgresql</artifactId>
+  <version>9.4.1208</version>
+</dependency>
         </dependencies>  
        
 </project>
