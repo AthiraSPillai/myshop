@@ -11,9 +11,5 @@ public class DbMgr {
 		
 	}
 	
-	public Connection getConnection(){
-		return connection;
-	}
-	
 	
 }
